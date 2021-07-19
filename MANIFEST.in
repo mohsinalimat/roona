@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include roona *.css
+recursive-include roona *.csv
+recursive-include roona *.html
+recursive-include roona *.ico
+recursive-include roona *.js
+recursive-include roona *.json
+recursive-include roona *.md
+recursive-include roona *.png
+recursive-include roona *.py
+recursive-include roona *.svg
+recursive-include roona *.txt
+recursive-exclude roona *.pyc

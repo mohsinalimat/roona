@@ -1,0 +1,2 @@
+execute:frappe.db.set_value('System Settings', None, 'app_name', 'Roona')
+roona.patches.set_app_name

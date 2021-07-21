@@ -8,7 +8,21 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "lovinmaxwell@gmail.com"
 app_license = "MIT"
+app_logo_url = '/assets/Roona/images/blogging.svg'
 
+website_context = {
+	"favicon": 	"/assets/Roona/images/cart.svg",
+	"splash_image": "/assets/Roona/images/cart.svg"
+}
+
+default_mail_footer = """
+	<span>
+		Sent via
+		<a class="text-muted" href="https://erpnext.com?source=via_email_footer" target="_blank">
+			Roona
+		</a>
+	</span>
+"""
 # Includes in <head>
 # ------------------
 

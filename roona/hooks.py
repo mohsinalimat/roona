@@ -8,7 +8,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "lovinmaxwell@gmail.com"
 app_license = "MIT"
-app_logo_url = '/assets/roona/images/blogging.svg'
+app_logo_url = '/assets/roona/images/logo.svg'
 
 # website_context = {
 # 	"favicon": 	"/assets/roona/images/cart.svg",

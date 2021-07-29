@@ -27,11 +27,11 @@ default_mail_footer = """
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/roona/css/roona.css"
-# app_include_js = "/assets/roona/js/roona.js"
+app_include_css = "/assets/whitelabel/css/whitelabel_app.css"
+app_include_js = "/assets/whitelabel/js/whitelabel.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/roona/css/roona.css"
+web_include_css = "/assets/whitelabel/css/whitelabel_web.css"
 # web_include_js = "/assets/roona/js/roona.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -60,6 +60,12 @@ default_mail_footer = """
 # role_home_page = {
 #	"Role": "home_page"
 # }
+
+website_context = {
+	"favicon": "/assets/whitelabel/images/favicon.svg",
+	"splash_image": "/assets/whitelabel/images/splash_image.svg"
+}
+after_migrate = ['whitelabel.api.whitelabel_patch']
 
 # Generators
 # ----------
@@ -140,7 +146,7 @@ default_mail_footer = """
 # 		"roona.tasks.monthly"
 # 	],
 # }
-
+boot_session = "whitelabel.api.boot_session"
 # Testing
 # -------
 
@@ -159,6 +165,10 @@ default_mail_footer = """
 # override_doctype_dashboards = {
 # 	"Task": "roona.task.get_dashboard_data"
 # }
+
+override_whitelisted_methods = {
+	"frappe.utils.change_log.show_update_popup": "whitelabel.api.ignore_update_popup"
+}
 
 # exempt linked doctypes from being automatically cancelled
 #

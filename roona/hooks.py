@@ -65,7 +65,7 @@ website_context = {
 	"favicon": "/assets/roona/images/favicon.svg",
 	"splash_image": "/assets/roona/images/splash_image.svg"
 }
-after_migrate = ['whitelabel.api.whitelabel_patch']
+after_migrate = ['roona.whitelabel.api.whitelabel_patch']
 
 # Generators
 # ----------
@@ -146,7 +146,7 @@ after_migrate = ['whitelabel.api.whitelabel_patch']
 # 		"roona.tasks.monthly"
 # 	],
 # }
-boot_session = "whitelabel.api.boot_session"
+boot_session = "roona.whitelabel.api.boot_session"
 # Testing
 # -------
 
@@ -167,7 +167,7 @@ boot_session = "whitelabel.api.boot_session"
 # }
 
 override_whitelisted_methods = {
-	"frappe.utils.change_log.show_update_popup": "whitelabel.api.ignore_update_popup"
+	"frappe.utils.change_log.show_update_popup": "roona.whitelabel.api.ignore_update_popup"
 }
 
 # exempt linked doctypes from being automatically cancelled

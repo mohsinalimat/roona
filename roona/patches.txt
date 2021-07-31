@@ -1,1 +1,2 @@
-roona.patches.v1.insert_product_cat
+roona.patches.v1.202107311800_insert_product_cat
+roona.patches.v1.202107312132_insert_app_setting

@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "creation": "2021-07-31 19:46:32.539599",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "application_logo",
+  "app_settings_section",
+  "app_settings"
+ ],
+ "fields": [
+  {
+   "fieldname": "application_logo",
+   "fieldtype": "Attach Image",
+   "in_preview": 1,
+   "label": "Application Logo"
+  },
+  {
+   "fieldname": "app_settings_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "app_settings",
+   "fieldtype": "Table",
+   "label": "App Settings",
+   "options": "Roona App Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-07-31 20:26:23.011880",
+ "modified_by": "Administrator",
+ "module": "Roona",
+ "name": "Roona App Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "autoname": "field:delivery_slot_name",
+ "creation": "2021-08-01 17:57:59.678438",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_slot_name",
+  "express_delivery",
+  "column_break_3",
+  "disabled",
+  "section_break_2",
+  "slot_line",
+  "section_break_7",
+  "delivery_location"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "delivery_slot_name",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Delivery Slot Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "slot_line",
+   "fieldtype": "Table",
+   "label": "Slot Line",
+   "options": "Delivery Slot Line"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Disabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "express_delivery",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Express Delivery"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "delivery_location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Delivery Location",
+   "options": "Delivery Location"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-01 18:43:15.432160",
+ "modified_by": "Administrator",
+ "module": "Roona",
+ "name": "Delivery Slot",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

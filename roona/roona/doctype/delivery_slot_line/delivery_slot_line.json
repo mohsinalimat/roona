@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "creation": "2021-08-01 18:03:51.406467",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "slot_name",
+  "timing_section",
+  "start_time",
+  "column_break_4",
+  "end_time",
+  "processing_time",
+  "column_break_7",
+  "max_order_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "slot_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Slot Name"
+  },
+  {
+   "fieldname": "timing_section",
+   "fieldtype": "Section Break",
+   "label": "Timing"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "End Time",
+   "reqd": 1
+  },
+  {
+   "default": "6",
+   "fieldname": "processing_time",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Processing Time"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "100",
+   "fieldname": "max_order_limit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Max Order Limit"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-01 18:04:55.224167",
+ "modified_by": "Administrator",
+ "module": "Roona",
+ "name": "Delivery Slot Line",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

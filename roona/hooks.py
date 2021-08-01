@@ -28,7 +28,7 @@ default_mail_footer = """
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/roona/css/whitelabel_app.css"
-app_include_js = "/assets/roona/js/whitelabel.js"
+app_include_js = "/assets/roona/js/roona.bundle.js"
 
 # include js, css files in header of web template
 web_include_css = "/assets/roona/css/whitelabel_web.css"

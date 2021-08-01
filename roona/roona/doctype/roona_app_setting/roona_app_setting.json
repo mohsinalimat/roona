@@ -6,6 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "application_logo",
+  "column_break_2",
+  "sms_gateway",
   "app_settings_section",
   "app_settings"
  ],
@@ -25,12 +27,24 @@
    "fieldtype": "Table",
    "label": "App Settings",
    "options": "Roona App Item"
+  },
+  {
+   "default": "Textlocal",
+   "fieldname": "sms_gateway",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "SMS Gateway",
+   "options": "\nTextlocal\nExotel"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2021-07-31 20:26:23.011880",
+ "modified": "2021-08-02 01:13:40.494569",
  "modified_by": "Administrator",
  "module": "Roona",
  "name": "Roona App Setting",

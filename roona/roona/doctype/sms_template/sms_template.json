@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "creation": "2021-08-02 01:27:09.963556",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "message_template",
+  "disabled"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "message_template",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Message Template"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Disabled"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-02 01:28:22.103090",
+ "modified_by": "Administrator",
+ "module": "Roona",
+ "name": "SMS Template",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -39,6 +39,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Textlocal Setting",
+   "link_to": "Textlocal Setting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Whitelabel Setting",
    "link_to": "Whitelabel Setting",
    "link_type": "DocType",
@@ -109,6 +118,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Delivery Slot",
+   "link_to": "Delivery Slot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Sales",
    "link_type": "DocType",
    "onboard": 0,
@@ -160,7 +178,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-08-02 00:45:05.986435",
+ "modified": "2021-08-02 02:30:08.718046",
  "modified_by": "Administrator",
  "module": "Roona",
  "name": "Ecommerce",

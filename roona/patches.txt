@@ -1,2 +1,3 @@
 roona.patches.v1.202107311800_insert_product_cat
 roona.patches.v1.202107312132_insert_app_setting
+roona.patches.v1.202108011040_update_customer_role

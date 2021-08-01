@@ -10,8 +10,9 @@
  "field_order": [
   "location_name",
   "parent_delivery_location",
-  "is_group",
   "column_break_3",
+  "is_group",
+  "disabled",
   "location_details_section",
   "latitude",
   "column_break_7",
@@ -107,12 +108,18 @@
    "fieldtype": "Table",
    "label": "Areas",
    "options": "Delivery Area"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-08-01 19:00:12.976195",
+ "modified": "2021-08-02 00:07:25.577708",
  "modified_by": "Administrator",
  "module": "Roona",
  "name": "Delivery Location",

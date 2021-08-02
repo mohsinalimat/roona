@@ -3,6 +3,10 @@
 
 # import frappe
 from frappe.model.document import Document
+from frappe.utils import (strip)
 
 class DeliveryArea(Document):
-	pass
+	def autoname(self):
+		self.area_name = strip(self.area_name)
+		self.name = self.area_name
+

@@ -17,6 +17,8 @@
   "latitude",
   "column_break_7",
   "longitude",
+  "section_break_10",
+  "warehouse",
   "section_break_9",
   "areas",
   "tree_details_section",
@@ -50,6 +52,7 @@
    "read_only": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "default": "0",
    "fieldname": "is_group",
    "fieldtype": "Check",
@@ -63,6 +66,7 @@
    "options": "Delivery Location"
   },
   {
+   "depends_on": "eval:doc.is_group == 0;",
    "fieldname": "parent_delivery_location",
    "fieldtype": "Link",
    "in_filter": 1,
@@ -104,6 +108,7 @@
    "fieldtype": "Section Break"
   },
   {
+   "depends_on": "eval:doc.is_group == 0;",
    "fieldname": "areas",
    "fieldtype": "Table",
    "label": "Areas",
@@ -114,12 +119,30 @@
    "fieldname": "disabled",
    "fieldtype": "Check",
    "label": "Disabled"
+  },
+  {
+   "depends_on": "eval:doc.is_group == 0;",
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "depends_on": "eval:doc.is_group == 0;",
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Warehouse",
+   "mandatory_depends_on": "eval:doc.is_group == 0;",
+   "options": "Warehouse"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2021-08-02 00:07:25.577708",
+ "modified": "2021-08-02 18:34:29.561461",
  "modified_by": "Administrator",
  "module": "Roona",
  "name": "Delivery Location",

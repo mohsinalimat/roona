@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "field:area_name",
  "creation": "2021-08-01 18:57:52.435926",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -19,7 +20,8 @@
    "fieldtype": "Data",
    "in_global_search": 1,
    "in_list_view": 1,
-   "label": "Area Name"
+   "label": "Area Name",
+   "unique": 1
   },
   {
    "fieldname": "pincode",
@@ -59,10 +61,11 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-08-01 19:21:16.272883",
+ "modified": "2021-08-02 18:29:51.778487",
  "modified_by": "Administrator",
  "module": "Roona",
  "name": "Delivery Area",
+ "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

@@ -3,6 +3,9 @@
 
 # import frappe
 from frappe.utils.nestedset import NestedSet
+from frappe.utils import (strip)
 
 class DeliveryLocation(NestedSet):
-	pass
+	def autoname(self):
+		self.location_name = strip(self.location_name)
+		self.name = self.location_name
